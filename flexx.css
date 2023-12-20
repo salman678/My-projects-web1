@@ -1,0 +1,90 @@
+/* flexx.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #333;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+
+  p {
+    padding: 0 15px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .flex-container > div {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+
+  .div1 {
+    flex: 1;
+    order: -1;
+  }
+  
+  .div2 {
+    flex: 1;
+    order: -2;
+  }
+  
+  .div3 {
+    flex: 1;
+    order: -3;
+  }
+  
+  .div4 {
+    flex: 1;
+    order: -4;
+  }
+  
+  .div5 {
+    flex: 1;
+    order: -5;
+  }
+  
+  
+  
+  .flex-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  .div1 h2, .div2 h2, .div3 h2, .div4 h2, .div5 h2 {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .flex-container {
+      justify-content: center;
+    }
+  
+
